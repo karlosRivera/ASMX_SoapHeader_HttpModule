@@ -20,7 +20,6 @@ namespace TestConsole
         private void button1_Click(object sender, EventArgs e)
         {
             ServiceReference1.SecureWebServiceSoapClient xx = new ServiceReference1.SecureWebServiceSoapClient();
-
             ServiceReference1.Authentication AuthHeader = new ServiceReference1.Authentication();
             AuthHeader.User = "Hello";
             AuthHeader.Password = "Hello";
